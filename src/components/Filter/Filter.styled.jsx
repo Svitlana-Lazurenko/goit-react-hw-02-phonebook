@@ -9,7 +9,8 @@ export const Label = styled.label`
 export const Text = styled.span`
   margin-left: 20px;
   margin-bottom: 5px;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
+  font-size: 15px;
 `;
 
 export const Input = styled.input`

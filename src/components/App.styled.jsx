@@ -14,7 +14,7 @@ export const Block = styled.div`
 export const MainTitle = styled.h1`
   font-weight: 400;
   font-size: 40px;
-  letter-spacing: 4px;
+  letter-spacing: 7px;
   text-align: center;
 
   margin-bottom: 30px;
@@ -64,7 +64,7 @@ export const MainTitle = styled.h1`
 export const Title = styled.h2`
   font-weight: 400;
   font-size: 30px;
-  letter-spacing: 4px;
+  letter-spacing: 7px;
   text-align: center;
 
   margin-bottom: 30px;
