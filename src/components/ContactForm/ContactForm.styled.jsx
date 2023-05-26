@@ -19,7 +19,8 @@ export const Text = styled.span`
   display: block;
   margin-bottom: 5px;
   margin-left: 20px;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
+  font-size: 15px;
 `;
 
 export const Input = styled.input`
@@ -57,7 +58,7 @@ export const Button = styled.button`
   font-size: 15px;
   font-family: monospace;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 6px;
 
   :hover {
     background: #03f40f;
