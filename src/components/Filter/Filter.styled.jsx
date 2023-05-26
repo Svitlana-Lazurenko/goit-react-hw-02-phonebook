@@ -18,7 +18,7 @@ export const Input = styled.input`
   padding: 10px 25px;
 
   background: transparent;
-  border-radius: 30px;
+  border-radius: 10px;
   box-shadow: -2px -2px 8px rgb(53, 202, 8) inset;
   border: 2px solid rgb(53, 202, 8);
   outline-color: rgb(53, 202, 8);
@@ -26,4 +26,5 @@ export const Input = styled.input`
   font-size: 20px;
   color: rgb(240, 240, 240);
   text-shadow: 0 0 1em rgb(53, 202, 8);
+  font-family: monospace;
 `;

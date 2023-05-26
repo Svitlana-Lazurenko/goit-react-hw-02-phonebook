@@ -28,13 +28,14 @@ export const Input = styled.input`
 
   background: transparent;
   box-shadow: -2px -2px 8px rgb(53, 202, 8) inset;
-  border-radius: 30px;
+  border-radius: 10px;
   border: 2px solid rgb(53, 202, 8);
   outline-color: rgb(53, 202, 8);
 
   font-size: 20px;
   color: rgb(240, 240, 240);
   text-shadow: 0 0 1em rgb(53, 202, 8);
+  font-family: monospace;
 `;
 
 export const Button = styled.button`
@@ -54,6 +55,7 @@ export const Button = styled.button`
   color: rgb(240, 240, 240);
   text-shadow: 0 0 1em rgb(53, 202, 8);
   font-size: 15px;
+  font-family: monospace;
   text-transform: uppercase;
   letter-spacing: 4px;
 
