@@ -17,7 +17,7 @@ export const MainTitle = styled.h1`
   letter-spacing: 7px;
   text-align: center;
 
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 
   @keyframes flickering {
     0%,
@@ -67,7 +67,7 @@ export const Title = styled.h2`
   letter-spacing: 7px;
   text-align: center;
 
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 
   @keyframes flickering {
     0%,
