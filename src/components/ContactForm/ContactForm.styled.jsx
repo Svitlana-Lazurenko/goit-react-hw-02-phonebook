@@ -29,7 +29,7 @@ export const Input = styled.input`
   background: transparent;
   box-shadow: -2px -2px 8px rgb(53, 202, 8) inset;
   border-radius: 30px;
-  border: none;
+  border: 2px solid rgb(53, 202, 8);
   outline-color: rgb(53, 202, 8);
 
   font-size: 20px;
