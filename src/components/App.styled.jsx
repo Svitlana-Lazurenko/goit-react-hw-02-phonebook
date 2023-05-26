@@ -4,6 +4,7 @@ export const Block = styled.div`
   width: 800px;
   margin: 0 auto;
   margin-top: 40px;
+  margin-bottom: 40px;
   padding: 40px;
 
   border: 2px solid rgb(53, 202, 8);
