@@ -44,6 +44,7 @@ export const Button = styled.button`
   letter-spacing: 4px;
   text-transform: uppercase;
   color:rgb(53, 202, 8);
+  font-family: monospace;
  
   :not(:last-child) {
     margin-right: 12px;
