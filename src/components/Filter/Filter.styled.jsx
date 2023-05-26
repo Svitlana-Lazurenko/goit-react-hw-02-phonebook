@@ -28,4 +28,5 @@ export const Input = styled.input`
   color: rgb(240, 240, 240);
   text-shadow: 0 0 1em rgb(53, 202, 8);
   font-family: monospace;
+  letter-spacing: 5px;
 `;
