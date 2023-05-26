@@ -18,6 +18,47 @@ export const MainTitle = styled.h1`
   text-align: center;
 
   margin-bottom: 30px;
+
+  @keyframes flickering {
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    41.99% {
+      opacity: 1;
+    }
+
+    42% {
+      opacity: 0;
+    }
+
+    43% {
+      opacity: 0;
+    }
+
+    43.01% {
+      opacity: 1;
+    }
+
+    47.99% {
+      opacity: 1;
+    }
+
+    48% {
+      opacity: 0;
+    }
+
+    49% {
+      opacity: 0;
+    }
+
+    49.01% {
+      opacity: 1;
+    }
+  }
+
+  animation: flickering 4s linear infinite both;
 `;
 
 export const Title = styled.h2`
@@ -27,4 +68,45 @@ export const Title = styled.h2`
   text-align: center;
 
   margin-bottom: 30px;
+
+  @keyframes flickering {
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    41.99% {
+      opacity: 1;
+    }
+
+    42% {
+      opacity: 0;
+    }
+
+    43% {
+      opacity: 0;
+    }
+
+    43.01% {
+      opacity: 1;
+    }
+
+    47.99% {
+      opacity: 1;
+    }
+
+    48% {
+      opacity: 0;
+    }
+
+    49% {
+      opacity: 0;
+    }
+
+    49.01% {
+      opacity: 1;
+    }
+  }
+
+  animation: flickering 6s linear infinite both;
 `;
