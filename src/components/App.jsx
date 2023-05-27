@@ -13,12 +13,13 @@ class App extends Component {
 
   addContact = (name, number) => {
     const id = nanoid();
-    const normalizedName = name.toLowerCase();
-    const contactObj = { id, name: normalizedName, number };
+    const contactObj = { id, name, number };
     const contacts = this.state.contacts;
+    const newNormalizedName = name.toLowerCase();
 
     for (const contact of contacts) {
-      if (contact.name === normalizedName) {
+      const oldNormalizedName = contact.name.toLowerCase();
+      if (oldNormalizedName === newNormalizedName) {
         alert(`${name} is already in contacts`);
         return;
       }
